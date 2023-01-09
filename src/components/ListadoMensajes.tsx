@@ -25,7 +25,7 @@ ListadoMensajes.propTypes = {
     mensajes: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
-            remitente: PropTypes.string.isRequired,
+            remitente: PropTypes.object.isRequired,
             asunto: PropTypes.string.isRequired,
             fecha: PropTypes.string.isRequired
         })
